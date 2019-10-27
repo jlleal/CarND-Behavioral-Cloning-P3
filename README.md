@@ -32,7 +32,7 @@ The final model has the intention to clone the driving behavior, so at the end t
 - 1 and 1/2 laps driving counter-clockwise
 - some recovery drives from left to the center and right to the center. 
 
-
+![Screenshot](images_readme/center.jpg)
 
 This data will be pre-processed in order to have even more data later before trainning the model. 
 After capturing the data, I decided to divided in 2 sets: 80% for trainning and 20% for validation. 
