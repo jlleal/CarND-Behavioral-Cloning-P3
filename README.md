@@ -24,10 +24,24 @@ Keras framework is used during this project. The output of the model is the mode
 The drive.py script will open a connection with the simulator to be used in "autonomous mode" 
 It will load the data (model.h5) to drive.
 
+# Capturing Data
+
+The final model has the intention to clone the driving behavior, so at the end the model will be as good as the driver that gathered the data. For this Udacity provided a simulator (see image below), this simulator allowed me to drive the car over a track. In order to have enough data for my model I decided to do the following driving patterns: 
+
+- 1 and 1/2 laps driving clokwise
+- 1 and 1/2 laps driving counter-clockwise
+- some recovery drives from left to the center and right to the center. 
+
+
+
+This data will be pre-processed in order to have even more data later before trainning the model. 
+After capturing the data, I decided to divided in 2 sets: 80% for trainning and 20% for validation. 
+
 
 # Model 
 
-... Coming Soon ...
+Udacity recommended to start by using Nvidia's model as a base and go from there. So I used the following model. 
+
 
 # Results
 
